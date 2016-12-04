@@ -1,0 +1,13 @@
+{
+  "name": "@zipdrug/scripts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Common scripts for build and deployment",
+  "bin": {
+    "setenv": "setEnv.js"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "shelljs": "^0.7.5"
+  }
+}
