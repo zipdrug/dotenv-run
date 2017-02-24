@@ -1,5 +1,5 @@
 {
-  "name": "@zipdrug/scripts",
+  "name": "zipdrug-scripts",
   "private": true,
   "version": "1.0.0",
   "description": "Common scripts for build and deployment",
