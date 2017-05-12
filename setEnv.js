@@ -3,8 +3,9 @@
 const dotenv = require('dotenv');
 const shell = require('shelljs');
 
+const ENVIRONMENT = process.env.NODE_ENV || 'development';
 dotenv.config({
-  path: `./.env.${process.env.ENV}`,
+  path: ENVIRONMENT !== 'development' ? `.env.${ENVIRONMENT}` : '.env',
 });
 
 // Run the command from the arguments
