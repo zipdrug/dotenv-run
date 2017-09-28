@@ -1,10 +1,11 @@
 {
-  "name": "zipdrug-scripts",
-  "private": true,
-  "version": "1.0.0",
-  "description": "Common scripts for build and deployment",
+  "name": "dotenv-run",
+  "version": "0.0.1",
+  "description": "Use the .env for environment variables when running a command",
+  "license": "MIT",
+  "repository": "zipdrug/dotenv-run",
   "bin": {
-    "setenv": "setEnv.js"
+    "dotenv-run": "dotenv-run.js"
   },
   "dependencies": {
     "dotenv": "^2.0.0",
